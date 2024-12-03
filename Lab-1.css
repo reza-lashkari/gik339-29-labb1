@@ -1,0 +1,28 @@
+body{
+background-color: #202b3e;
+}
+h1{
+    color: #EAEBED;
+    text-align: center;
+}
+
+section{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.main_menu_box{
+    width: 60%;
+    padding: 2rem;
+    background-color: #EAEBED;
+}
+
+.textfield{
+    display: flex;
+    background-color: pink;
+}
+
+
