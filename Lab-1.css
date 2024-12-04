@@ -41,6 +41,7 @@ input.textfield {
     padding: 0.313rem;
     border: 0.063rem solid #ccc;
     border-radius: 0.313rem;
+    flex: 2;
 }
 
 input.checkbox {
