@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Lab-1.css">
+    <link rel="stylesheet" href="Labb-1.css">
 </head>
 <body>
-    <h1>Lab1- Grupp 29</h1>
-    <!--skapar huvudbox-->
-    <section> 
-        <div class="main_menu_box"> 
-            <form action="" method="get" class="form">
-                <div class="form_färg">
-                    <label for="color"> Färg </label>
-                    <input type="text" name="color" id="color" class="textfield" />
-                </div>
-
-                <div class="form-innehåll">
-                    <label for="content">Innehåll </label>
-                    <input type="text" name="content" id="content" class="textfield" />
-                </div>
-                
-                <div class="form_stilPåBox">
-                    <label for="stil_info"> Stil på box</label>
-                    <input type="checkbox" name="divStyle" id="divStyle" class="checkbox" />
-                </div>
-                
-            </form>
+    <h1>Labb 1 - Grupp 20</h1>
+    <div class="container">
+        <form>
+            <!-- Fält 1 -->
+             <div class="form_seperator">
+                <label for="color">Färg</label>
+                <input type="text" id="color" name="color" class="textfield">
+             </div>
             
-            <button id="taBortKnapp"> Ta bort</button>
-            <div>
-                <p>Div som egentligen ska vara tomt</p>
-            </div>
-            
-        </div>
-    </section>
 
+            <!-- Fält 2 -->
+             <div class="form_seperator">
+                <label for="content">Innehåll</label>
+                <input type="text" id="content" name="content" class="textfield">
+             </div>
+            
+            <!-- Fält 3-->
+             <div>
+                <label for="divStyle">Stil på box</label>
+                <input type="checkbox" id="divStyle" name="divStyle" class="checkbox">
+             </div>
+            
+
+            <!-- Ta bort Knapp -->
+            <button id="removeButton">Ta bort</button>
+        </form>
+        <!-- Fär diven Div  -->
+        <div id="emptyDiv" class="emptyDiv">Div som egentligen ska vara tom</div>
+    </div>
+    <script src="Labb-1.js"></script>
 </body>
 </html>
