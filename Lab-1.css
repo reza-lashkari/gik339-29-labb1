@@ -27,7 +27,6 @@ body {
 
 form {
     padding: 1.25rem;
-
 }
 
 label {
@@ -57,16 +56,13 @@ button {
     border: none;
     border-radius: 0.313rem;
     border: 0.063rem solid rgb(101, 100, 100);
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 button:hover {
     background-color: rgb(177, 174, 174);
 }
 
-
-/* Styling för div */
 #emptyDiv {
     margin-top: 1.25rem;
     padding: 0.625rem;
